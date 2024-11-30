@@ -1,8 +1,11 @@
 name: SSR Scraper
 on:
+
   push:
+  workflow_dispatch:
+  
   schedule:
-    - cron:  '52 11 * * *'
+    - cron: '0 */3 * * *'
 
 jobs:
   ssr-scraper:
