@@ -2,7 +2,7 @@ name: SSR Scraper
 on:
   push:
   schedule:
-    - cron:  '52 11 * * *'
+    - cron: '*/9 * * * *'
 
 jobs:
   ssr-scraper:
